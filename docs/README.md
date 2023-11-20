@@ -64,7 +64,7 @@ Setup the following variables in the .env file or in the cloud environments:
 From the root of the project:
 - `npm run frontend:install`    - To install frontend dependencies.
 - `npm run frontend:build`      - To build the Angular/Frontend.
-- `npm run frontend:deploy`     - To deploy the project to S3 using `./udagram-frontend/bin/deploy.sh` deploy script.
+- `npm run frontend:deploy`     - To deploy the project to S3 using `./udagram-client/bin/deploy.sh` deploy script.
 - `npm run backend:install`     - To install backend dependencies.
 - `npm run backend:change-main` - To change the main entry point in the package.json from `src/server.js` to `server.js` using `./udagram-api/bin/edit-main-entry.sh` with the help of jq and sponge.
 - `npm run backend:build`       - To transpile the Typescript/Backend.
