@@ -19,9 +19,6 @@ A more in depth documentation into the application.
 
 ### Dependencies
 ```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
-
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
 
 - AWS CLI v2, v1 can work but was not tested for this project
 
@@ -32,6 +29,11 @@ A more in depth documentation into the application.
 - AWS S3 bucket for Frontend.
 
 - AWS Elastic Beanstalk for Backend.
+
+- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+
+- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+
 
 ```
 
@@ -92,7 +94,7 @@ The order of the run jobs:
 ## Testing
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
-1. `cd udagram-frontend`
+1. `cd udagram-client`
 2. `npm run test`
 3. `npm run e2e`
 
@@ -105,6 +107,6 @@ Unit tests are using the Jasmine Framework.
 The e2e tests are using Protractor and Jasmine.
 
 ## Built With
-- [Angular](https://angular.io/) - Single Page Application Framework
-- [Node](https://nodejs.org) - Javascript Runtime
-- [Express](https://expressjs.com/) - Javascript API Framework
+- Single Page Application Framework-  [Angular](https://angular.io/) - 
+- Javascript Runtime - [Node](https://nodejs.org) 
+- Javascript API Framework - [Express](https://expressjs.com/) 
