@@ -15,14 +15,14 @@ The main feature of this project is:
 The project can run but is missing some information to connect to the database and storage service
 
 ## Project Link
-Frontend: http://phucle-udagram.s3-website-us-east-1.amazonaws.com/
+Frontend: http://phucle-udagram.s3-website-us-east-1.amazonaws.com/home
 
-Backend: http://udagram-api.us-east-1.elasticbeanstalk.com/
+Backend: http://udagram-api-env.eba-avuqh2i6.us-east-1.elasticbeanstalk.com/
 
 ## Project Setup
-1. Clone the project - `https://github.com/lntthanh/udagram.git`
+1. Clone the project - `https://github.com/phucle24/udagram-deloy.git`
 2. Build & Run Frontend
-   1. Go into the project directory - `cd udagram/udagram-frontend`
+   1. Go into the project directory - `cd udagram/udagram-client`
    2. Install the dependencies - `npm install`
    3. Start the frontend - `npm run start`
 3. Build & Run Backend
@@ -37,7 +37,7 @@ Backend: http://udagram-api.us-east-1.elasticbeanstalk.com/
 ```
 export POSTGRES_USERNAME=postgres     // Postgres username
 export POSTGRES_PASSWORD=postgres123    // Postgres password
-export POSTGRES_HOST=''               // Postgres Host
+export POSTGRES_HOST=postgres.cwjbezkpwcvp.us-east-1.rds.amazonaws.com  // Postgres Host
 export POSTGRES_DB=postgres           // Database name
 export AWS_BUCKET=phucle-udagram    // S3 bucket
 export AWS_REGION=us-east-1           // AWS region
